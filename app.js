@@ -6,7 +6,7 @@ var compression = require('compression');
 require('dotenv').config();
 const {v4: uuidv4} = require('uuid');
 const cors = require('cors');
-
+// Esto es un comentario de prueba
 const app = express();
 app.use(helmet()); // Ayuda a proteger aplicaciones Express
 app.use(compression());
